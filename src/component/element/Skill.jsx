@@ -4,7 +4,7 @@ const educationContent = [
   // EXPERIENCE SECTION
   {
     img: "/image/education/logo-1.png",
-    title: "Okuneva Ltd.",
+    title: "Okuneva ",
     year: "6 Months",
     month: "Jan 2021 - Running",
     content: "Frontend Developer",
@@ -189,7 +189,7 @@ const Skill = () => {
                     className='exprience_card p-4 rounded-3 d-flex align-items-center justify-content-between mb-4 '
                     key={index}
                   >
-                    <div className="content_section d-flex align-items-center gap-4">
+                    <div className="content_section d-flex align-items-center gap-sm-4 gap-3">
                       <div className="img_section">
                         <img src={element.img} className="img-fluid" alt="" />
                       </div>
