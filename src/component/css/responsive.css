@@ -125,11 +125,15 @@
 }
 /* MAX-WIDTH 568PX */
 @media (max-width: 568px) {
+  
   /* CUSTOM CSS */
   .skill_padding {
     padding-top: 2rem;
   }
-  
+
+  h4 {
+    font-size: 1.8rem !important;
+  }
 
   /* NAVBAR SECTION */
   .navbar-collapse {
