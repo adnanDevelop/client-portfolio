@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;500;600;700&family=WindSong&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;500;600;700");
 * {
   padding: 0;
   margin: 0;
@@ -710,10 +710,17 @@ p {
 }
 
 .form-control {
-  background-color: transparent;
-  border: 0.1rem solid var(--blue);
+  border: 0.1rem solid var(--white);
   color: var(--white) !important;
   font-size: 1.4rem;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 !important;
+  border-color: var(--blue);
+  background-color: transparent!important;
 }
 
 

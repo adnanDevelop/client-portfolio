@@ -26,7 +26,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="service_section section-padding position-relative">
+    <div className="service_section section-padding position-relative" id="service">
       <div className="container px-sm-2 px-4">
         <div className="row g-4">
         <div className="col-12 padding-bottom ">
