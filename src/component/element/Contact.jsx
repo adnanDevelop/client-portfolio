@@ -4,10 +4,10 @@ const Contact = () => {
   return (
     <div className="contact_section section-padding" id="contact">
       <div className="container px-sm-2 px-4">
-        <div className="row  contact_bg_color">
+        <div className="row contact_bg_color">
           <div className="col-lg-6 mb-lg-0 mb-4">
-            <div className="contact_content">
-              <h3 className="text-white text-center mb-5" data-aos='fade-up'>Get In Touch</h3>
+            <div className="contact_content ">
+              <h3 className="text-white text-center mb-5 " data-aos='fade-up'>Get In Touch</h3>
               <form action="https://formspree.io/f/myyqqjyn" method='POST' className="mt-4">
                 <div data-aos='fade-up'>
                   <label htmlFor="name" className="text-white fs-3" >Name: </label>

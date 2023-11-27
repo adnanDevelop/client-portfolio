@@ -147,12 +147,6 @@
     font-size: 1.6rem !important;
   }
 
-  /* .btn-primary,
-.btn-secondary {
-  font-size: 1.4rem;
-  padding: 1rem 2rem;
-  } */
-
   /* NAVBAR SECTION */
   .navbar-collapse {
     padding: 1rem;
@@ -209,9 +203,15 @@
     display: none;
   }
 
+  /* PROJET SECTION */
+  .project_section {
+    height: 50vh;
+  }
+
+
   /* CONTACT SECTION */
   .contact_bg_color {
-    padding:0.5rem;
+    padding:2rem 0.5rem;
   }
 
   /* FOOTER */
