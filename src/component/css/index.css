@@ -112,6 +112,10 @@ p {
   padding-bottom: 5rem;
 }
 
+.margin-top {
+  margin-top: 5rem;
+}
+
 .section-padding {
   padding-block: 10rem;
 }
@@ -322,6 +326,7 @@ p {
 
 .nav-item .nav-link.active {
   color: var(--blue) !important;
+
 }
 
 /* ---------------********** HERO SECTION START **********------------------------ */
@@ -522,9 +527,197 @@ p {
 }
 
 
-
 /* ---------------********** SERVICE SECTION START **********------------------------ */
+.service_section::before {
+  content: '';
+  position: absolute;
+  width: 50rem;
+  height: 40rem;
+  border-radius: 50%;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50% , -100%);
+  background-color: rgba(0, 191, 231, 0.1);
+  z-index: -1;
+}
+
+.service-card {
+  border: 0.1rem solid var(--white);
+  border-radius: 0.5rem;
+  transition: var(--transition);
+  color: var(--light-white);
+  /* background-color: #1f3553c0; */
+}
+
+.service-card .content  {
+  text-align: justify;
+  text-align-last: left;
+}
+
+.service-card:hover {
+  transform: skew(3deg);
+  border: 0.1rem solid var(--blue);
+  z-index: 1;
+}
+
+.service-icon .icon {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  line-height: 6rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--white);
+  background-color: var(--blue);
+  border: 0.1rem solid transparent;
+  position: absolute;
+  top: -2.5rem;
+  left: 2rem;
+  transition: var(--transition);
+}
+
+.service-card:hover .service-icon .icon ,
+.service-card:focus  .service-icon .icon{
+  left: 3rem;
+  color: var(--blue);
+  background-color: transparent;
+  border-color: var(--blue);
+}
+
+.service-card .heading {
+  margin-top: 3.5rem;
+}
+
+
+/* ---------------********** PROJECT SECTION START **********------------------------ */
+.project_section {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/public/image/project-bg.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.project_section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0 , 0 , 0, 0.5);
+  z-index: -1;
+}
+
+
 /* ---------------********** PORTFOLIO SECTION START **********------------------------ */
+.portfolio_img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: rgba(0 , 0 , 0, 0.5);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.porfolio_card {
+  border-bottom: 0.2rem solid transparent;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.porfolio_card:hover {
+  border-bottom: 0.2rem solid var(--blue);
+}
+
+.porfolio_card:hover .portfolio_img::before {
+  opacity: 1;
+}
+
+.portfolio_img img {
+  transition: var(--transition);
+}
+
+.porfolio_card:hover .portfolio_img img {
+  transform: scale(1.04);
+}
+
+.view_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-size: 2rem;
+  display: inline-block;
+  width: 5rem;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 1rem;
+  border: 0.1rem solid var(--blue);
+  z-index: 10;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.view_ion:hover ,
+.view_ion:focus {
+  border: 0.1rem solid var(--blue);
+  color: var(--black);
+  background-color: transparent;
+}
+
+.porfolio_card:hover .view_icon {
+  opacity: 1;
+}
+
+
+.portfolio_content .content {
+  color: var(--light-white);
+  text-align: justify;
+  text-align-last:left ;
+}
+
+.portfolio_content:hover  h5 {
+  color: var(--blue) !important;
+}
+
+/* ---------------********** CONTACT SECTION START **********------------------------ */
+.contact_section {
+  height: auto;
+  background: url('/public/image/contact-bg.png') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact_bg_color {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(1rem);
+  background-color: rgba(255 , 255 , 255 , 0.1);
+
+}
+
+.form-control {
+  background-color: transparent;
+  border: 0.1rem solid var(--blue);
+  color: var(--white) !important;
+  font-size: 1.4rem;
+}
+
+
+
 /* ---------------********** FOOTER SECTION START **********------------------------ */
 .footer_section {
   background-color: rgba(0, 193, 231, 0.631372549);

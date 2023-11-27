@@ -38,7 +38,7 @@ const educationContent = [
   {
     img: "/image/education/logo-2.png",
     title: "Intermediate",
-    year: "2015 - 2017",
+    year: "2 Years",
     month: "2014 -  2021",
     content: "Sir Syed college wah cantt",
     category: "education",
@@ -46,8 +46,8 @@ const educationContent = [
   {
     img: "/image/education/logo-3.png",
     title: "Matric",
-    year: "6 Months",
-    month: " 2013 - Dec 2015",
+    year: "2 Years",
+    month: " 2013 - 2015",
     content: "Public school wah cantt",
     category: "education",
   },
@@ -135,17 +135,17 @@ const Skill = () => {
         <div className="row d-flex align-items-center">
           {/* HEADING SECTION */}
           <div className="col-lg-5 ">
-            <h2 className="mb-3">Education & Experience</h2>
-            <div className="line"></div>
+            <h2 className="mb-3" data-aos='zoom-in'>Education & Experience</h2>
+            <div className="line" data-aos='fade-up'></div>
           </div>
           {/* FILTER BUTTONS SECTION */}
           <div className="col-lg-7 ps-lg-5 mt-lg-0 mt-5">
-            <div className="skill_btn d-flex">
+            <div className="skill_btn d-flex" data-aos='zoom-in'>
               <button
                 className=" filter_btn btn btn-primary d-block w-100"
                 onClick={showExperience}
               >
-                professional experience
+                experience
               </button>
               <button
                 className=" filter_btn btn btn-secondary ms-4 d-block w-100"
@@ -163,7 +163,7 @@ const Skill = () => {
               {skillContent.map((element, index) => {
                 return (
                   <div className="col-6 mb-5 mt-lg-0 mt-4" key={index}>
-                    <div className="skill_card">
+                    <div className="skill_card" data-aos='fade-up'>
                       <div className="skill_img">
                         <img src={element.img} alt="" />
                       </div>
@@ -186,8 +186,9 @@ const Skill = () => {
               {education.map((element, index) => {
                 return (
                   <div
-                    className='exprience_card p-4 rounded-3 d-flex align-items-center justify-content-between mb-4 '
+                    className="exprience_card p-4 rounded-3 d-flex align-items-center justify-content-between mb-4 "
                     key={index}
+                    data-aos='fade-up'
                   >
                     <div className="content_section d-flex align-items-center gap-sm-4 gap-3">
                       <div className="img_section">

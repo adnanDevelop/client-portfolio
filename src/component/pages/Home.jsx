@@ -4,16 +4,19 @@ import About from '../element/About'
 import Skill from '../element/Skill'
 import Service from '../element/Service'
 import Portfolio from '../element/Portfolio'
+import Project from '../element/Project'
+import Contact from '../element/Contact'
 
 const Home = () => {
   return (
-    <main  data-spy="scroll" data-target="#navbar-section" data-offset="0" >
+    <main   >
       <Hero/>
       <About/>
       <Skill/>
       <Service/>
-      <div style={{width :"100%"  , height : '60vh'}}></div>
       <Portfolio/>
+      <Project/>
+      <Contact/>
     </main>
   )
 }

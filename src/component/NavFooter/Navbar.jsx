@@ -7,11 +7,19 @@ const Navbar = () => {
     window.scrollY > 100 ? setScrollAnimation(true) : setScrollAnimation(false);
   });
 
+ 
+
+
   return (
-    <nav id="navbar-section" className={`navbar navbar-expand-lg ${scrollAnimation ? 'nav-scroll' : ''}`}>
+    <nav
+      id="navbar-section"
+      className={`navbar navbar-expand-lg ${
+        scrollAnimation ? "nav-scroll" : ""
+      }`}
+    >
       <div className="container d-flex align-item-center">
-        <a className="navbar-brand order-0" href="#">
-          <h3 className="fw-bold">Asma</h3>
+        <a className="navbar-brand order-0" href="#" data-aos='zoom-in'>
+          <h3 className="fw-bold">Nimra</h3>
           {/* <img src="Images/logo.png" alt="" /> */}
         </a>
         <button
@@ -30,10 +38,10 @@ const Navbar = () => {
           className="collapse navbar-collapse order-2"
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0" data-aos='zoom-in'>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#home">
-                home
+              <a className="nav-link  active" aria-current="page" href="#home">
+                Home
               </a>
             </li>
             <li className="nav-item">

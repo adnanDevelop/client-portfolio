@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="row d-flex align-items-center ">
           {/* CONTENT SECTION */}
           <div className="col-lg-6 col-md-10 mx-auto pe-lg-5 order-lg-1 order-2">
-            <div className="hero_content text-lg-start text-center">
+            <div className="  hero_content text-lg-start text-center" data-aos='fade-up' >
               <h5 className="text-white">Hello, I'm</h5>
               <h1 className="fw-bold">Nimra</h1>
               <h5 className="text-white text-capitalize">
@@ -60,7 +60,7 @@ const Hero = () => {
           {/* IMAGE SECTION */}
           <div className="col-lg-6 order-lg-2 order-1 mb-lg-0 mb-5 ">
             <Tilt>
-              <div className="hero_img">
+              <div className="hero_img" data-aos='zoom-in'>
                 <img src="/image/hero-img.jpg" className="img-fluid" alt="" />
               </div>
             </Tilt>
