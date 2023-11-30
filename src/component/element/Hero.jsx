@@ -21,16 +21,14 @@ const Hero = () => {
                   <Typewriter
                     cursor
                     cursorStyle="|"
-                    words={["Web Developer", "Wordpress Developer" , 'Web Designer']}
+                    words={["Web Developer", "Wordpress Designer" , 'Frontend Developer']}
                     typeSpeed={120}
                     deleteSpeed={90}
                   />
                 </span>
               </h5>
               <p className="hero_description mt-lg-5 mt-4 text-white pe-lg-5">
-                I am a Freelance Frontend React Developer based in Pakistan,
-                with 1.5 years of expertise in shaping digital experiences. Let
-                me bring my seasoned skills to enhance your online presence.
+               As a Frontend Developer with 1.5 years of expertise in shaping digital experiences, I have valuable experience in tech. Ready to bring seasoned skills to enhance your online presence.
               </p>
               <div className="hero_icons mt-lg-4 mt-4">
                 <a
