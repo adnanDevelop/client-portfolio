@@ -12,7 +12,10 @@ const Hero = () => {
         <div className="row d-flex align-items-center ">
           {/* CONTENT SECTION */}
           <div className="col-lg-6 col-md-10 mx-auto pe-lg-5 order-lg-1 order-2">
-            <div className="  hero_content text-lg-start text-center" data-aos='fade-up' >
+            <div
+              className="  hero_content text-lg-start text-center"
+              data-aos="fade-up"
+            >
               <h5 className="text-white">Hello, I'm</h5>
               <h1 className="fw-bold">Nimra</h1>
               <h5 className="text-white text-capitalize">
@@ -21,14 +24,20 @@ const Hero = () => {
                   <Typewriter
                     cursor
                     cursorStyle="|"
-                    words={["Web Developer", "Wordpress Designer" , 'Frontend Developer']}
+                    words={[
+                      "Web Developer",
+                      "Wordpress Designer",
+                      "Frontend Developer",
+                    ]}
                     typeSpeed={120}
                     deleteSpeed={90}
                   />
                 </span>
               </h5>
               <p className="hero_description mt-lg-5 mt-4 text-white pe-lg-5">
-               As a Frontend Developer with 1.5 years of expertise in shaping digital experiences, I have valuable experience in tech. Ready to bring seasoned skills to enhance your online presence.
+                As a Frontend Developer with 2 years of hands-on experience. I
+                craft pixel-perfect, user-friendly interfaces that make the web
+                come alive. Let's build something awesome together!
               </p>
               <div className="hero_icons mt-lg-4 mt-4">
                 <a
@@ -58,7 +67,7 @@ const Hero = () => {
           {/* IMAGE SECTION */}
           <div className="col-lg-6 order-lg-2 order-1 mb-lg-0 mb-5 ">
             <Tilt>
-              <div className="hero_img" data-aos='zoom-in'>
+              <div className="hero_img" data-aos="zoom-in">
                 <img src="/image/hero-img.jpg" className="img-fluid" alt="" />
               </div>
             </Tilt>
