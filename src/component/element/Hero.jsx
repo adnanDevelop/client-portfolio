@@ -25,9 +25,9 @@ const Hero = () => {
                     cursor
                     cursorStyle="|"
                     words={[
-                      "Web Developer",
-                      "Wordpress Designer",
                       "Frontend Developer",
+                      "Wordpress Designer",
+                     
                     ]}
                     typeSpeed={120}
                     deleteSpeed={90}
