@@ -511,8 +511,8 @@ p {
 }
 
 .img_section {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   margin-inline: auto;
   display: grid;
   place-items: center;

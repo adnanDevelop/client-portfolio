@@ -4,32 +4,32 @@ const educationContent = [
   // EXPERIENCE SECTION
   {
     img: "/image/education/logo-1.png",
-    title: "Okuneva ",
-    year: "6 Months",
-    month: "Jan 2021 - Running",
+    title: "Atlantis Tech ",
+    year: "2 Years",
+    month: "Feb 2022 - Running",
     content: "Frontend Developer",
     category: "experience",
   },
   {
     img: "/image/education/logo-2.png",
-    title: "Braun PLC.",
-    year: "1 Year",
-    month: "Jan 2014 - Dec 2021",
+    title: "Pakistan Software Export Board (PSEB).",
+    year: "6 Months",
+    month: "Jan 2021 - June 2021",
     content: "Frontend Developer",
     category: "experience",
   },
   {
     img: "/image/education/logo-3.png",
-    title: "Bruen Ltd.",
+    title: "National Vocational And Technical  Training  Commissoin.",
     year: "6 Months",
-    month: "Jan 2010 - Dec 2014",
+    month: "Jan 2021 - June 2021",
     content: "Frontend Developer",
     category: "experience",
   },
   // EDUCATION SECTION
   {
     img: "/image/education/logo-1.png",
-    title: "BSc in Computer Science",
+    title: "BS in Computer Science",
     year: "4 Years",
     month: "2017 - 2021",
     content: "University of wah",
@@ -195,9 +195,9 @@ const Skill = () => {
                         <img src={element.img} className="img-fluid" alt="" />
                       </div>
                       <div className="img_content">
-                        <h4 className="text-white text-capitalize">
+                        <h5 className="text-white text-capitalize">
                           {element.title}
-                        </h4>
+                        </h5>
                         <p className="mb-0 content">{element.content}</p>
                       </div>
                     </div>

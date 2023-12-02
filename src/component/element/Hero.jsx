@@ -24,11 +24,7 @@ const Hero = () => {
                   <Typewriter
                     cursor
                     cursorStyle="|"
-                    words={[
-                      "Web Developer",
-                      "Wordpress Designer",
-                      "Frontend Developer",
-                    ]}
+                    words={["Frontend Developer", "Wordpress Designer"]}
                     typeSpeed={120}
                     deleteSpeed={90}
                   />
