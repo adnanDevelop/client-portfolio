@@ -17,7 +17,7 @@ const Hero = () => {
               data-aos="fade-up"
             >
               <h5 className="text-white">Hello, I'm</h5>
-              <h1 className="fw-bold">Nimra</h1>
+              <h1 className="fw-bold">Nimraa</h1>
               <h5 className="text-white text-capitalize">
                 And I'm a
                 <span className="ms-2 typewriter">
