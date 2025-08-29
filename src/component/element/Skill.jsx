@@ -12,7 +12,7 @@ const educationContent = [
   {
     img: "/image/education/logo-1.png",
     title: "Atlantis Tech ",
-    year: "1 year Years",
+    year: "1 year ",
     month: "April 2023 - Sep 2024 ",
     content: "Frontend Developer",
     category: "experience",
