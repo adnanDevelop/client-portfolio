@@ -17,45 +17,51 @@ const Hero = () => {
               data-aos="fade-up"
             >
               <h5 className="text-white">Hello, I'm</h5>
-              <h1 className="fw-bold">Nimraaaaaa</h1>
+              <h1 className="fw-bold">Nimra</h1>
               <h5 className="text-white text-capitalize">
                 And I'm a
                 <span className="ms-2 typewriter">
                   <Typewriter
                     cursor
                     cursorStyle="|"
-                    words={["Frontend Developer", "Wordpress Designer"]}
+                    words={["Frontend Developer", "Software Tester , Bug Resolver"]}
                     typeSpeed={120}
                     deleteSpeed={90}
                   />
                 </span>
               </h5>
-              <p className="hero_description mt-lg-5 mt-4 text-white pe-lg-5">
-                As a Frontend Developer with 2 years of hands-on experience. I
-                craft pixel-perfect, user-friendly interfaces that make the web
-                come alive. Let's build something awesome together!
-              </p>
+             <p className="hero_description mt-lg-5 mt-4 text-white pe-lg-5">
+  As a Frontend Developer with 2 years of practical experience, I create 
+  responsive, pixel-perfect, and user-friendly interfaces that bring ideas 
+  to life. Skilled at identifying issues, resolving bugs, and optimizing 
+  performance to ensure seamless user experiences. Let’s build something 
+  innovative and impactful together!
+</p>
               <div className="hero_icons mt-lg-4 mt-4">
                 <a
                   href="https://join.skype.com/invite/p4n238ehlBYG"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa-brands fa-skype"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/nimra-khan-%E2%AD%90-625128218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-linkedin"></i>
                 </a>
                 <a
                   href="https://www.facebook.com/profile.php?id=100070446526449&mibextid=9R9pXO"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-facebook"></i>
                 </a>
-                <a href="https://github.com/cutenimragithub" target="_blank">
+                <a href="https://github.com/cutenimragithub" target="_blank" rel="noreferrer">
                   <i className="fa fa-github"></i>
+
                 </a>
               </div>
             </div>

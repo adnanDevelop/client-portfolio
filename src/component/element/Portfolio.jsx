@@ -111,6 +111,7 @@ const Portfolio = () => {
                       className="text-decoration-none"
                       href={element.link}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <div className="portfolio_img position-relative overflow-hidden rounded-4">
                         <img

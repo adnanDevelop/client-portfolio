@@ -49,7 +49,7 @@ const Contact = () => {
           {/* MAP SECTION */}
           <div className=" ps-lg-5 col-lg-6">
             <div className="map_section rounded-4" data-aos='zoom-in' >
-              <iframe
+              <iframe title="Google Maps" 
                 className="rounded-4"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165418.84766403463!2d72.52094912788066!3d33.76803461382173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfa654df8cb00d%3A0xcfc4650d8d975fb3!2sWah%20Cantt.%2C%20Wah%2C%20Rawalpindi%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1701094952607!5m2!1sen!2s"
                 style={{ width: "100%", height: "80vh" }}

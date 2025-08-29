@@ -2,11 +2,18 @@ import React, { useState, useEffect } from "react";
 
 const educationContent = [
   // EXPERIENCE SECTION
+   {
+    img: "/image/education/logo-1.png",
+    title: "Octaloop Technologies",
+    month: "Oct 2024 - Feb 2025 ",
+    content: "Frontend Developer",
+    category: "experience",
+  },
   {
     img: "/image/education/logo-1.png",
     title: "Atlantis Tech ",
-    year: "2 Years",
-    month: "Feb 2022 - Running",
+    year: "1 year Years",
+    month: "April 2023 - Sep 2024 ",
     content: "Frontend Developer",
     category: "experience",
   },
@@ -14,7 +21,7 @@ const educationContent = [
     img: "/image/education/logo-2.png",
     title: "Pakistan Software Export Board (PSEB).",
     year: "6 Months",
-    month: "Jan 2021 - June 2021",
+    month: "Oct 2022 - March 2023",
     content: "Frontend Developer",
     category: "experience",
   },
@@ -22,7 +29,7 @@ const educationContent = [
     img: "/image/education/logo-3.png",
     title: "National Vocational And Technical  Training  Commissoin.",
     year: "6 Months",
-    month: "Jan 2021 - June 2021",
+    month: "April 2022 - September 2022",
     content: "Frontend Developer",
     category: "experience",
   },
@@ -37,9 +44,9 @@ const educationContent = [
   },
   {
     img: "/image/education/logo-2.png",
-    title: "Intermediate",
+    title: "FSC",
     year: "2 Years",
-    month: "2014 -  2021",
+    month: "2015 -  2017",
     content: "Sir Syed college wah cantt",
     category: "education",
   },
@@ -69,6 +76,27 @@ const Skill = () => {
       percentage: "92%",
       color: "#59c378",
       img: "/image/skill/css.svg",
+      class: "skill-card",
+    },
+     {
+      title: "Sass",
+      percentage: "80%",
+      color: "#59c378",
+      img: "/image/skill/node-sass.svg",
+      class: "skill-card",
+    },
+      {
+      title: "Tailwind Css",
+      percentage: "80%",
+      color: "#59c378",
+      img: "/image/skill/featured.png",
+      class: "skill-card",
+    },
+       {
+      title: "Ant Design",
+      percentage: "80%",
+      color: "#59c378",
+      img: "/image/skill/ant.svg",
       class: "skill-card",
     },
     {

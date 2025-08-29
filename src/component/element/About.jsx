@@ -19,24 +19,27 @@ const About = () => {
             <div className="about_content">
               <h2 data-aos='fade-up' className="text-white " >ABOUT ME</h2>
               <div className="line"  data-aos='zoom-in'></div>
-              <p data-aos='fade-up' className="about_descrpition text-white mt-5">
-                As a dedicated Front-End Web Developer, my expertise lies in
-                crafting visually engaging and user-friendly web applications.
-                Proficient in HTML, CSS, Bootstrap, Github, JavaScript, and
-                TypeScript, I specialize in creating dynamic and responsive web
-                interfaces.
-              </p>
-              <p data-aos='fade-up' className="about_descrpition mt-4 text-white">
-                With a rich history of achievements in the computer software
-                industry, I've had the privilege of making significant
-                contributions to various projects. My core objective is to
-                design captivating online experiences, ranging from sleek small
-                business websites to dynamic and interactive web applications.
-                Let's collaborate to bring your digital vision to life
-              </p>
+            <p data-aos="fade-up" className="about_descrpition text-white mt-5">
+  As a passionate Front-End Web Developer, I specialize in building 
+  responsive, visually engaging, and user-friendly web applications. 
+  With expertise in HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, 
+  and TypeScript, I focus on delivering clean, scalable, and 
+  performance-optimized solutions using modern tools like Ant Design.
+</p>
+
+<p data-aos="fade-up" className="about_descrpition mt-4 text-white">
+  Beyond crafting attractive websites, I excel at identifying and 
+  resolving bugs, integrating smooth animations, and developing 
+  powerful dashboards that extend functionality. My experience 
+  includes collaborating with teams on GitHub, ensuring efficient 
+  version control and seamless teamwork. From sleek business sites 
+  to fully interactive platforms, my goal is to transform ideas into 
+  impactful digital experiences that truly stand out.
+</p>
+
               <div className="d-flex gap-5 mt-lg-5 mt-4" data-aos='fade-up'>
                 <div className="project d-flex align-items-center gap-3">
-                  <h2 className="fw-bold ">10+</h2>
+                  <h2 className="fw-bold ">15+</h2>
                   <p className="text-white mb-0">
                     Projects <br /> completed
                   </p>
@@ -49,8 +52,8 @@ const About = () => {
                 </div>
               </div>
               <div className="mt-lg-5 mt-4" data-aos='fade-up'>
-                <a href="/image/cv.pdf" download={'/image/cv.pdf'} target="_blank" className="btn btn-primary">download cv</a>
-                <a href="#portfolio" className="btn btn-secondary ms-3">portfolio</a>
+                <a href="/image/cv.pdf" download={'/image/cv.pdf'} target="_blank" rel="noreferrer" className="btn btn-primary">download cv</a>
+                <a href="#portfolio" className="btn btn-secondary ms-3" rel="noreferrer">portfolio</a>
               </div>
             </div>
           </div>
