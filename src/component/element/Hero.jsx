@@ -24,19 +24,20 @@ const Hero = () => {
                   <Typewriter
                     cursor
                     cursorStyle="|"
-                    words={["Frontend Developer", "Software Tester , Bug Resolver"]}
+                    words={["Frontend Developer", "React Js Developer , Next Js Developer"]}
                     typeSpeed={120}
                     deleteSpeed={90}
                   />
                 </span>
               </h5>
-             <p className="hero_description mt-lg-5 mt-4 text-white pe-lg-5">
-  As a Frontend Developer with 2 years of practical experience, I create 
-  responsive, pixel-perfect, and user-friendly interfaces that bring ideas 
-  to life. Skilled at identifying issues, resolving bugs, and optimizing 
-  performance to ensure seamless user experiences. Let’s build something 
-  innovative and impactful together!
-</p>
+              <p className="hero_description mt-lg-5 mt-4 text-white pe-lg-5">
+                Frontend Developer with 2+ years of experience building responsive,
+                scalable, and user-friendly web applications using React.js, Next.js,
+                JavaScript, HTML5, CSS3, and modern UI frameworks. Passionate about
+                creating clean, pixel-perfect interfaces and optimizing performance
+                to deliver smooth and engaging user experiences. I enjoy turning ideas
+                into interactive digital products that are both functional and visually appealing.
+              </p>
               <div className="hero_icons mt-lg-4 mt-4">
                 <a
                   href="https://join.skype.com/invite/p4n238ehlBYG"

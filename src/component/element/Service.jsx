@@ -12,37 +12,37 @@ const Service = () => {
       icon: <FaCode />,
       title: "Frontend Development",
       content:
-        "Dynamic user interfaces, flawless functionality. React.js, JavaScript for engaging web experiences.",
+        "Build dynamic, responsive, and user-friendly web applications using React.js and Next.js, delivering seamless user experiences and high-performance code.",
     },
-  {
-  icon: <LiaCogsSolid />,
-  title: "Custom Web Design",
-  content:
-    "Craft captivating website designs that elevate your online presence. Responsive layouts in HTML, CSS, Bootstrap, Tailwind CSS, Ant Design, and SASS.",
-},
+    {
+      icon: <LiaCogsSolid />,
+      title: "API Integration & Dashboard",
+      content:
+        "Integrate RESTful APIs and FastAPI to fetch and display dynamic data. Develop interactive dashboards with real-time updates and analytics.",
+    },
     {
       icon: <MdOutlineImportantDevices />,
-      title: "UI/UX",
+      title: "Responsive Web Design",
       content:
-        "Design intuitive and visually appealing user interfaces that provide seamless experiences for your audience.",
+        "Craft fully responsive layouts that adapt across devices using HTML5, CSS3, Bootstrap, Tailwind CSS, Ant Design, and SASS for a consistent UX.",
     },
     {
       icon: <BiBug />,
       title: "Bug Fixing & Debugging",
       content:
-        "Identify and resolve front-end issues quickly to ensure smooth user experiences and error-free functionality.",
+        "Identify, debug, and resolve front-end issues quickly to ensure smooth functionality, seamless performance, and error-free applications.",
     },
     {
       icon: <TbDeviceDesktopAnalytics />,
-      title: "Cross-Browser Testing",
+      title: "Cross-Browser & Device Testing",
       content:
-        "Test and optimize websites across multiple browsers and devices for consistent performance everywhere.",
+        "Test and optimize websites across multiple browsers and devices to guarantee consistent behavior and high-quality user experience everywhere.",
     },
     {
       icon: <AiOutlineThunderbolt />,
       title: "Performance Optimization",
       content:
-        "Boost website speed and responsiveness through optimized code, images, and modern best practices.",
+        "Boost speed and responsiveness with optimized code, lazy loading, caching strategies, and modern best practices for frontend performance.",
     },
   ];
 
@@ -53,25 +53,32 @@ const Service = () => {
     >
       <div className="container px-sm-2 px-4">
         <div className="row g-4">
-          <div className="col-12 padding-bottom ">
+          {/* Heading */}
+          <div className="col-12 padding-bottom">
             <h2 className="mb-3" data-aos="zoom-in">
               Services
             </h2>
             <div className="line" data-aos="fade-up"></div>
           </div>
 
+          {/* Service Cards */}
           {serviceContent.map((element, index) => (
             <div
               className={`col-lg-4 col-sm-6 ${index >= 3 ? "mt-4 mt-lg-5" : ""}`}
               key={index}
               data-aos="fade-up"
             >
-              <div className="service-card position-relative p-4 rounded-4">
-                <div className="service-icon">
+              <div className="service-card d-flex flex-column h-100 position-relative p-4 rounded-4">
+                {/* Icon */}
+                <div className="service-icon mb-3">
                   <p className="icon">{element.icon}</p>
                 </div>
-                <h4 className="text-white heading mb-4">{element.title}</h4>
-                <p className="content">{element.content}</p>
+
+                {/* Title */}
+                <h4 className="text-white heading mb-3">{element.title}</h4>
+
+                {/* Content */}
+                <p className="content flex-grow-1">{element.content}</p>
               </div>
             </div>
           ))}
