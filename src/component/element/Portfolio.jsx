@@ -42,6 +42,12 @@ const Portfolio = () => {
         "React.js + Next.js project with responsive layouts, modern UI, and high-performance front-end implementation.",
       link: "https://www.atlantis.tech/",
     },
+   {
+  img: "/image/portfolio/om.PNG",
+  name: "Omni Website",
+  content: "Developed a high-performance corporate platform using React.js and Next.js. Engineered a fully responsive, modern UI with optimized front-end architecture to support scalable business operations.",
+  link: "https://omnigig.co.za/",
+},
   ];
 
   return (
